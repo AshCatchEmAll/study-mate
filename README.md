@@ -30,6 +30,7 @@
 - Open the project is VS code (or your favorite editor)
 - Make a firebase account and generate the service json file
 - Add firebase config in main.dart and index.js
+- Upload firebase cloud functions to your firebase project
 - run flutter pub get for Flutter
 - Locate the VS Code status bar (the blue bar at the bottom of the window):
 - Select Chrome from devices
