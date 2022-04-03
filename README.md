@@ -15,6 +15,7 @@
 - [Stack in use](#stack-in-use)
 - [Future scope](#future-scope)
 - [Demo video](#demo-video)
+- [Members](#members)
 
 
 
@@ -55,4 +56,9 @@
 ## Demo video
 ```
 https://youtu.be/9vgBisFuGQg
+```
+
+## Members 
+```
+🎈 Me, Myseld and I
 ```
