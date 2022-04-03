@@ -43,7 +43,8 @@ https://princeton-9a321.web.app/#/
 - Fontend : Frontend is setup using flutter and programmed in a way that it can be ran on desktop , web and android/ios !
 - Node.js : Admin side verification of users is setup using Node.js. It calls BotDoc api's to recieve media
 - Database and Auth : Firebase
-
+- Using Botdoc for user verification
+<pre><img src="botdoccode.png"></pre>
 
 
 ## Future scope
