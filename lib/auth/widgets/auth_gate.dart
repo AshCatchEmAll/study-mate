@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutterfire_ui/auth.dart';
+import 'package:wespark_student/flashcard/constants/all_constants.dart';
 import 'package:wespark_student/home/pages/home_page.dart';
 
 
@@ -19,11 +20,12 @@ class AuthGate extends StatelessWidget {
           
           
           return SignInScreen(
+            
               sideBuilder: (context, constraints) {
                 return  const Center(
                   child:  Padding(
                     padding:  EdgeInsets.all(20),
-                    child:Text("WE SPARK ✨",style: TextStyle(fontSize: 30),)
+                    child:Text("Study Mate 📖",style: TextStyle(fontSize: 30,color:headlineColor),),
                   ),
                 );
               },
@@ -33,6 +35,7 @@ class AuthGate extends StatelessWidget {
                   child: AspectRatio(aspectRatio: 1, child: Text("✨")),
                 );
               },
+              
               providerConfigs: [EmailProviderConfiguration()]);
         }
 

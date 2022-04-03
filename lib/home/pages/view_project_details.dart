@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:wespark_student/home/helpers/project_firestore.dart';
+import 'package:wespark_student/home/helpers/user_firestore.dart';
 import 'package:wespark_student/home/models/project_form_model.dart';
 
 class ViewProjectDetails extends StatefulWidget {

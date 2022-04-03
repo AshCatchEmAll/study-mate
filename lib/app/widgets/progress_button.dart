@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:wespark_student/flashcard/constants/all_constants.dart';
 
 class ProgressButton extends StatefulWidget {
   const ProgressButton(
@@ -34,7 +35,7 @@ class _ProgressButtonState extends State<ProgressButton> {
                     (Set<MaterialState> states) =>
                         states.contains(MaterialState.disabled)
                             ? const Color(0xffdddddd)
-                            : const Color(0xffE65100),
+                            : buttonColor,
                   ),
                 ),
             onPressed: widget.onPressed == null

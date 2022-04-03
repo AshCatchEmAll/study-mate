@@ -1,5 +1,13 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:cloud_functions/cloud_functions.dart';
+
+Future<bool> checkIfDocumentsAdded() async {
+  HttpsCallable callable = FirebaseFunctions.instance.httpsCallable('checkIfDocumentSubmitted');
+  final results = await callable();
+  bool docSubmitted = results.data;  
+  return docSubmitted;// ["Apple", "Banana", "Cherry", "Date", "Fig", "Grapes"]
+}
 
 Future sendSignUpRequest(String projectID) async {
   var check = await FirebaseFirestore.instance
@@ -18,4 +26,16 @@ Future sendSignUpRequest(String projectID) async {
   } else {
     return true;
   }
+}
+
+
+Future getUserDocument()async{
+  try{
+    var user = await FirebaseFirestore.instance.collection("Users").doc(FirebaseAuth.instance.currentUser!.uid).get();
+    print(user.data());
+  return user.data() as Map<String,dynamic>;
+  }catch(e){
+    print("getting in user document $e");
+  }
+  
 }
