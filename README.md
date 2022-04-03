@@ -10,18 +10,13 @@
 
 # Table of Content:
 
-- [Display Shots](#display-shots)
+
 - [Running the project](#running-the-project)
 - [Stack in use](#stack-in-use)
 - [Future scope](#future-scope)
 - [Demo video](#demo-video)
 - [Members](#members)
 
-
-
-## Display Shots
-
-<pre><div align="center"><img src ="s1.png" margin-left="10px" width="200" height="350">          <img src ="s2.png"  margin-left="10px" width="200" height="350">          <img src ="s3.png" width="200" height="350"></div></pre>
 
 
 
