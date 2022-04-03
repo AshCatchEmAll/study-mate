@@ -12,7 +12,7 @@
 
 
 - [Running the project](#running-the-project)
-- [Demo] (#demo)
+- [Demo](#demo)
 - [Stack in use](#stack-in-use)
 - [Future scope](#future-scope)
 - [Demo video](#demo-video)
