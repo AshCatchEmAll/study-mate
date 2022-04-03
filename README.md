@@ -44,7 +44,7 @@ https://princeton-9a321.web.app/#/
 - Node.js : Admin side verification of users is setup using Node.js. It calls BotDoc api's to recieve media
 - Database and Auth : Firebase
 - Using Botdoc for user verification
-<pre><img src="botdoccode.png"></pre>
+<pre><img src="code.png"></pre>
 
 
 ## Future scope
