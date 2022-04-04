@@ -12,7 +12,6 @@
 
 
 - [Running the project](#running-the-project)
-- [Demo](#demo)
 - [Stack in use](#stack-in-use)
 - [Future scope](#future-scope)
 - [Demo video](#demo-video)
@@ -33,10 +32,6 @@
 - Invoke Run > Start Debugging or press f5
 - Wait for the app to launch — progress is printed in the Debug Console view.
 
-## Demo
-```
-https://princeton-9a321.web.app/#/
-```
 
 
 ## Stack in use
